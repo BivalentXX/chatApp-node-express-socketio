@@ -1,0 +1,29 @@
+{
+  "name": "chatapp-node-express-socketio",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BivalentXX/chatApp-node-express-socketio.git"
+  },
+  "author": "Peter Kwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BivalentXX/chatApp-node-express-socketio/issues"
+  },
+  "homepage": "https://github.com/BivalentXX/chatApp-node-express-socketio#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.2"
+  },
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
